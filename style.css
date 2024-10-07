@@ -1,0 +1,48 @@
+:root {
+  /* color: rgb(125, 137, 184); */
+  font-family: "Qwitcher Grypen", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding: 10px 40px;
+  font-size: xx-large;
+}
+.nav-list {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.nav-list__item {
+  display: flex;
+  justify-content: center;
+  padding: 6px;
+  width: 80px;
+}
+.nav-list__item:hover {
+  background: rgb(216, 207, 165);
+  border-radius: 20px;
+  /* box-shadow: 10px -5px teal; */
+}
+.nav-logo__img {
+  width: 120px;
+}
+.nav-social {
+  display: flex;
+  gap: 60px;
+}
